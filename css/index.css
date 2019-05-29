@@ -1,8 +1,21 @@
-.main {
-  border: solid red 2px;
-}
 .header {
-  border: solid red 2px;
   display: flex;
   justify-content: flex-end;
+  background-color: #629749;
+  height: 60px;
+  align-items: center;
+}
+.header a button {
+  background-color: #ffecb3;
+  border: solid 1px #ffecb3;
+  margin-left: 10px;
+  height: 30px;
+  width: 150px;
+}
+.mainTop {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.mainTop img {
+  border: solid green 2px;
 }
