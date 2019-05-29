@@ -131,15 +131,20 @@ body {
   margin: 1rem;
   padding: 2%, 5%;
 }
+@media only screen and (max-width: 800px) {
+  body: width 100%;
+}
 .container-home {
   background-color: #53b571;
 }
 .nav-container {
-  width: 95%;
+  width: 100%;
   border: solid 1px red;
   align-items: center;
 }
 .nav-container nav {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -158,9 +163,32 @@ body {
 .box-container {
   display: flex;
 }
-.right-box {
+.box-container .left-box {
   width: 50%;
-}
-img {
+  justify-content: center;
+  align-content: center;
   width: 15rem;
+  padding: 20px;
+  margin: 4rem;
+}
+.box-container .left-box h2 p {
+  margin: 10px, 40px;
+  width: 40%;
+}
+.box-container .right-box {
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+}
+.box-container .right-box img {
+  justify-content: center;
+  align-content: center;
+  width: 15rem;
+  padding: 20px;
+  margin: 4rem;
+}
+.testimonials {
+  width: 800px;
+  justify-content: center;
+  align-content: center;
 }
