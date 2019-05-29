@@ -1,0 +1,8 @@
+.main {
+  border: solid red 2px;
+}
+.header {
+  border: solid red 2px;
+  display: flex;
+  justify-content: flex-end;
+}
