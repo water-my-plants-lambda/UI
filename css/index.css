@@ -131,13 +131,31 @@ body {
   margin: 1rem;
   padding: 2%, 5%;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 @media only screen and (max-width: 960px) {
   body: width 100%;
 }
-.container-home {
-  max-width: 960px;
-  background-color: #53b571;
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+}
+/* =14px */
+h1 {
+  font-size: 2.4rem;
+}
+/* =24px */
+h2 {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: 'Londrina Solid', cursive;
+}
+h3 {
+  font-size: 2rem;
+  line-height: 1;
+  font-family: 'Londrina Solid', cursive;
 }
 .nav-container {
   width: 100%;
@@ -164,39 +182,43 @@ body {
   text-decoration: none;
   color: gray;
 }
-.box-container {
-  display: flex;
+.container-home {
   max-width: 960px;
 }
-.box-container .left-box {
+.container-home .box-container {
+  display: flex;
+  max-width: 960px;
+  height: 550px;
+  line-height: 2;
+  color: white;
+  background-color: #53b571;
+}
+.container-home .box-container .left-box {
   width: 50%;
   justify-content: center;
   align-content: center;
-  width: 15rem;
   padding: 20px;
   margin: 4rem;
 }
-.box-container .left-box h2 p {
-  margin: 10px, 40px;
-  width: 50%;
+.container-home .box-container .left-box h2 p {
+  margin: 10px, 20px;
 }
-.box-container .right-box {
+.container-home .box-container .right-box {
   width: 50%;
   justify-content: center;
   align-content: center;
 }
-.box-container .right-box img {
-  justify-content: center;
-  align-content: center;
-  width: 15rem;
-  padding: 20px;
-  margin: 4rem;
+.container-home .box-container .right-box img {
+  object-fit: scale-down;
+  width: 250px;
+  margin-top: 150px;
+  margin-left: 90px;
 }
-.testimonials {
+.container-home .testimonials {
   width: 800px;
   justify-content: center;
   align-content: center;
 }
-footer {
+.container-home footer {
   display: none;
 }

@@ -11,44 +11,54 @@
 @import 'footer.less';
 // @import 'home-page.less';
 
-.box-container {
-  display: flex;
+.container-home {
   max-width: 960px;
 
-  .left-box {
-    width: 50%;
-    justify-content: center;
-    align-content: center;
-    width: 15rem;
-    padding: 20px;
-    margin: 4rem;
+  .box-container {
+    display: flex;
+    max-width: 960px;
+    height: 550px;
+    line-height: 2;
+    color: white;
+    background-color: #53b571;
 
-    h2 p {
-      margin: 10px, 40px;
+    .left-box {
       width: 50%;
-    }
-  }
-  .right-box {
-    width: 50%;
-    justify-content: center;
-    align-content: center;
-
-    img {
       justify-content: center;
       align-content: center;
-      width: 15rem;
+      //   width: 15rem;
       padding: 20px;
       margin: 4rem;
+      //   border: 1px solid red;
+
+      h2 p {
+        margin: 10px, 20px;
+      }
+    }
+    .right-box {
+      width: 50%;
+      justify-content: center;
+      align-content: center;
+      //   border: 1px solid red;
+      img {
+        // justify-items: center;
+        // align-content: center;
+        object-fit: scale-down;
+        width: 250px;
+        // padding: 20px;
+        margin-top: 150px;
+        margin-left: 90px;
+      }
     }
   }
-}
 
-.testimonials {
-  width: 800px;
-  justify-content: center;
-  align-content: center;
-}
+  .testimonials {
+    width: 800px;
+    justify-content: center;
+    align-content: center;
+  }
 
-footer {
-  display: none;
+  footer {
+    display: none;
+  }
 }
