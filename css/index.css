@@ -176,6 +176,7 @@ p {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .nav-container nav img {
   object-fit: scale-down;
@@ -186,8 +187,31 @@ p {
   font-family: sans-serif;
   font-weight: bold;
   margin-left: 2rem;
-  text-decoration: none;
+  text-decoration-line: none;
   color: gray;
+}
+.nav-container nav .nav-menu a:hover {
+  background-color: #53b571;
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .nav-menu a:not(:first-child) {
+    display: none;
+  }
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav-menu.responsive {
+    position: relative;
+  }
+  .nav-menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 }
 .container-home {
   max-width: 960px;
