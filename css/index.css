@@ -1,21 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 .header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #629749;
-  height: 60px;
+  height: 80px;
   align-items: center;
 }
-.header a button {
-  background-color: #ffecb3;
-  border: solid 1px #ffecb3;
-  margin-left: 10px;
+.header h1 {
+  font-family: 'Bad Script', cursive;
+  letter-spacing: 10;
+  color: #ffffb0;
+  margin-left: 5%;
+  font-size: 2.5rem;
+}
+.header .buttons {
+  width: 350px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.header .buttons button {
+  background-color: #ffe57f;
   height: 30px;
   width: 150px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5%;
+}
+.header .buttons #two {
+  background-color: #e8f5f3;
 }
 .mainTop {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  font-family: 'Bad Script', cursive;
+  height: 650px;
+}
+.mainTop h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 1.5rem;
+  margin-top: 10%;
+  letter-spacing: 7;
+  border-bottom: solid green 2px;
+  height: 50px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.mainTop p {
+  margin-top: 10%;
+  line-height: 2;
 }
 .mainTop img {
+  margin-top: 20px;
+  width: 50%;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+.mainTop .textContent {
+  margin-right: 3%;
+  margin-top: 4%;
+  box-shadow: 1px 1px 100px 10px #e8f5f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  border-radius: 15%;
+}
+.mainTop .textContent p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mainTop button {
+  border-color: green;
+  margin-top: 7%;
+  height: 50px;
+  width: 250px;
+  font-size: 1rem;
+  border-radius: 5%;
+}
+#features {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bad Script', cursive;
+  font-size: 1.5rem;
+  letter-spacing: 7;
+  border-bottom: solid green 2px;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+.mainBottom {
+  height: 600px;
+  display: flex;
+}
+.mainBottom div {
   border: solid green 2px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 300px;
+}
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #629749;
+  height: 70px;
+  align-items: center;
+  color: #e8f5f3;
+}
+.footer h1 {
+  font-family: 'Bad Script', cursive;
+  letter-spacing: 10;
+  color: #ffffb0;
+  margin-right: 3%;
+  font-size: 2rem;
+}
+.footer .buttons {
+  width: 350px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.footer .buttons button {
+  background-color: #ffe57f;
+  height: 30px;
+  width: 150px;
+  font-size: 1rem;
+  border: none;
+}
+.footer .buttons #two {
+  background-color: #e8f5f3;
 }
