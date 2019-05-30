@@ -127,6 +127,7 @@ body {
 }
 button {
   font-family: 'Bad Script', cursive;
+  letter-spacing: 3;
 }
 .header {
   display: flex;
@@ -151,7 +152,7 @@ button {
 }
 .header .buttons button {
   background-color: #ffe57f;
-  height: 30px;
+  height: 40px;
   width: 150px;
   font-size: 1rem;
   border: none;
@@ -188,6 +189,7 @@ button {
   margin-left: 2%;
 }
 .mainTop .textContent {
+  border: solid #009588 0.5px;
   margin-right: 3%;
   margin-top: 4%;
   box-shadow: 1px 1px 200px 1px #e8f5f3;
@@ -212,8 +214,13 @@ button {
   margin-top: 7%;
   height: 50px;
   width: 80%;
-  font-size: 1rem;
+  font-size: 1.3rem;
   border-radius: 15px;
+}
+.mainTop button:hover {
+  background-color: #009588;
+  border-color: #009588;
+  color: white;
 }
 #features {
   display: flex;
@@ -231,7 +238,8 @@ button {
   display: flex;
   margin-bottom: 1%;
 }
-.mainBottom div {
+.mainBottom .card {
+  border: solid #009588 0.5px;
   box-shadow: 1px 1px 200px 1px #e8f5f3;
   margin-left: 2%;
   margin-right: 2%;
@@ -239,22 +247,28 @@ button {
   padding: 2%;
   width: 100%;
   margin-top: 2%;
+  position: relative;
+  transition: top ease 0.2s;
+  top: 0;
 }
-.mainBottom div p {
+.mainBottom .card p {
   margin-top: 10%;
   line-height: 2;
 }
-.mainBottom div h3 {
+.mainBottom .card h3 {
   font-family: 'Bad Script', cursive;
   letter-spacing: 2;
   font-size: 1.2rem;
 }
-.mainBottom div img {
+.mainBottom .card img {
   height: 150px;
   width: 100%;
 }
-.mainBottom div #time {
+.mainBottom .card #time {
   margin-top: 10%;
+}
+.card:hover {
+  top: -20px;
 }
 .bottom {
   flex-direction: row-reverse;
@@ -267,6 +281,8 @@ button {
   box-shadow: none;
   box-shadow: 1px 1px 200px 1px #e8f5f3;
   height: 500px;
+  border: solid #009588 0.5px;
+  border-radius: 51px;
 }
 .bottom h2 {
   margin-top: 2%;
@@ -281,6 +297,7 @@ button {
 }
 .bottom .textContent {
   box-shadow: none;
+  border: none;
 }
 .team {
   margin: 0 auto;
@@ -290,6 +307,9 @@ button {
   margin-bottom: 3%;
   margin-top: 3%;
   width: 90%;
+  border: solid #009588 0.5px;
+  border-radius: 51px;
+  padding: 2%;
 }
 .team div {
   display: flex;
@@ -337,7 +357,7 @@ button {
 }
 .footer .buttons button {
   background-color: #ffe57f;
-  height: 30px;
+  height: 40px;
   width: 150px;
   font-size: 1rem;
   border: none;

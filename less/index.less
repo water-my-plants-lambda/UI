@@ -53,6 +53,7 @@ body {
 
 button {
     font-family: 'Bad Script', cursive;
+    letter-spacing: 3;
 }
 
 .header {
@@ -79,11 +80,12 @@ button {
 
         button {
             background-color: #ffe57f;
-            height: 30px;
+            height: 40px;
             width: 150px;
             font-size: 1rem;
             border: none;
             border-radius: 5%;
+            
         }
 
         #two {
@@ -125,7 +127,7 @@ button {
     }
 
     .textContent {
-       //  border: solid #009588 .5px;
+        border: solid #009588 .5px;
         margin-right: 3%;
         margin-top: 4%;
        box-shadow: 1px 1px 200px 1px  #e8f5f3;
@@ -153,8 +155,14 @@ button {
         margin-top: 7%;
         height: 50px;
         width: 80%;
-        font-size: 1rem;
+        font-size: 1.3rem;
         border-radius: 15px;
+    }
+
+    button:hover {
+        background-color:  #009588;
+        border-color: #009588;
+        color: white;
     }
 
 }
@@ -176,21 +184,22 @@ button {
 
 
 .mainBottom {
-    // height: 480px;
     display: flex;
     margin-bottom: 1%;
-    // border: solid green 1px;
 
-    div {
-        // border: solid #009588 .5px;
+
+    .card {
+        border: solid #009588 .5px;
         box-shadow: 1px 1px 200px 1px  #e8f5f3;
         margin-left: 2%;
         margin-right: 2%;
-        // height: 250px;
         border-radius: 5%;
         padding: 2%;
         width: 100%;
         margin-top: 2%;
+        position: relative;
+        transition: top ease 0.2s;
+        top: 0;
 
         p {
             margin-top: 10%;
@@ -217,6 +226,10 @@ button {
 
 }
 
+.card:hover {
+    top: -20px;
+}
+
 .bottom {
     flex-direction: row-reverse;
     margin-bottom: 3%;
@@ -228,6 +241,8 @@ button {
     box-shadow: none;
     box-shadow: 1px 1px 200px 1px  #e8f5f3;
     height: 500px;
+    border: solid #009588 .5px;
+    border-radius: 51px;
 
     h2 {
         margin-top: 2%;
@@ -244,19 +259,22 @@ button {
 
     .textContent {
         box-shadow: none;
-
+        border: none;
     }
 }
 
 .team {
+    // border: solid #009588 .5px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-around;
     box-sizing: border-box;
     margin-bottom: 3%;
     margin-top: 3%;
     width: 90%;
+    border: solid #009588 .5px;
+    border-radius: 51px;
+    padding: 2%;
 
     div {
         display: flex;
@@ -315,7 +333,7 @@ button {
 
         button {
             background-color: #ffe57f;
-            height: 30px;
+            height: 40px;
             width: 150px;
             font-size: 1rem;
             border: none;
@@ -325,6 +343,7 @@ button {
             background-color: #e8f5f3;
         }
     }
+
 }
 
 
