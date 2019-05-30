@@ -130,19 +130,23 @@ body {
   width: 100%;
   margin: 1rem;
   padding: 2%, 5%;
+  box-sizing: border-box;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 960px) {
   body: width 100%;
 }
 .container-home {
+  max-width: 960px;
   background-color: #53b571;
 }
 .nav-container {
   width: 100%;
-  border: solid 1px red;
+  max-width: 960px;
   align-items: center;
+  padding: 40px, 0;
 }
 .nav-container nav {
+  text-align: center;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
@@ -162,6 +166,7 @@ body {
 }
 .box-container {
   display: flex;
+  max-width: 960px;
 }
 .box-container .left-box {
   width: 50%;
@@ -173,7 +178,7 @@ body {
 }
 .box-container .left-box h2 p {
   margin: 10px, 40px;
-  width: 40%;
+  width: 50%;
 }
 .box-container .right-box {
   width: 50%;
@@ -191,4 +196,7 @@ body {
   width: 800px;
   justify-content: center;
   align-content: center;
+}
+footer {
+  display: none;
 }
