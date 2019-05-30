@@ -213,8 +213,8 @@ button {
   border-color: green;
   margin-top: 7%;
   height: 50px;
-  width: 80%;
-  font-size: 1.3rem;
+  width: 50%;
+  font-size: 1rem;
   border-radius: 15px;
 }
 .mainTop button:hover {
