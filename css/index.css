@@ -309,7 +309,7 @@ button {
 .team div {
   flex-direction: row;
   align-items: center;
-  width: 150px;
+  width: 175px;
   margin-bottom: 2%;
   display: flex;
   flex-direction: column;
