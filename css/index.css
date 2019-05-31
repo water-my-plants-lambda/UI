@@ -200,7 +200,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  height: 470px;
   border-radius: 15%;
 }
 .mainTop .textContent p {
@@ -211,13 +211,18 @@ button {
 }
 .mainTop button {
   border-color: green;
-  margin-top: 7%;
+  margin-top: 9%;
   height: 50px;
   width: 50%;
   font-size: 1rem;
   border-radius: 15px;
   font-family: 'Dosis', sans-serif;
   background-color: white;
+}
+.mainTop a {
+  height: 50px;
+  width: 80%;
+  padding-left: 40%;
 }
 .mainTop button:hover {
   background-color: #009588;
@@ -390,4 +395,7 @@ span {
 }
 #one p {
   font-family: 'Bad Script', cursive;
+}
+button {
+  outline: none;
 }
