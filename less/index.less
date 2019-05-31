@@ -14,6 +14,39 @@
 .container-home {
   max-width: 960px;
 
+  @media (max-width: 500px) {
+    .container-home {
+      max-width: 100%;
+    }
+    .box-container {
+      max-width: 100%;
+      height: auto;
+
+      .right-box {
+        display: none;
+      }
+
+      .left-box {
+        display: block;
+        line-height: 1;
+        margin: 0, auto;
+        // align-content: center;
+        justify-content: center;
+        h p {
+          margin: 0 auto;
+          padding: 0;
+          width: 100;
+          border: solid 1px red;
+        }
+        img {
+          display: none;
+        }
+      }
+    }
+    .testimonials {
+      max-width: 100%;
+    }
+  }
   .box-container {
     display: flex;
     max-width: 960px;
@@ -47,7 +80,7 @@
         width: 250px;
         // padding: 20px;
         margin-top: 150px;
-        margin-left: 90px;
+        margin-left: 20%;
       }
     }
   }
