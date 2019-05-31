@@ -106,6 +106,7 @@ section {
 }
 body {
   line-height: 1;
+  letter-spacing: 0.5;
 }
 blockquote,
 q {
@@ -133,7 +134,7 @@ button {
   display: flex;
   justify-content: space-between;
   background-color: #629749;
-  height: 80px;
+  height: 90px;
   align-items: center;
 }
 .header h1 {
@@ -141,7 +142,7 @@ button {
   letter-spacing: 10;
   color: #ffffb0;
   margin-left: 5%;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .header .buttons {
   width: 350px;
@@ -179,18 +180,18 @@ button {
   justify-content: center;
 }
 .mainTop p {
-  margin-top: 10%;
+  margin-top: 8%;
   line-height: 2;
 }
 .mainTop img {
-  margin-top: 20px;
+  padding-bottom: 40px;
   width: 50%;
   margin-right: 5%;
   margin-left: 2%;
 }
 .mainTop .textContent {
   margin-right: 3%;
-  margin-top: 4%;
+  margin-top: 3%;
   box-shadow: 1px 1px 200px 1px #e8f5f3;
   display: flex;
   flex-direction: column;
@@ -203,14 +204,9 @@ button {
   padding-right: 30px;
   z-index: 0;
 }
-.mainTop .textContent img {
-  position: relative;
-  top: -40px;
-  z-index: -1;
-}
 .mainTop button {
   border-color: green;
-  margin-top: 7%;
+  margin-top: 3%;
   height: 50px;
   width: 50%;
   font-size: 1rem;
