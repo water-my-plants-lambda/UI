@@ -313,7 +313,13 @@ button {
   padding: 5%;
 }
 .team div p {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+.team div h3 {
   margin-top: 20%;
+  font-size: 1.3rem;
   display: flex;
   justify-content: center;
 }
