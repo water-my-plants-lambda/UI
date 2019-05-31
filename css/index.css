@@ -106,7 +106,7 @@ section {
 }
 body {
   line-height: 1;
-  letter-spacing: 0.5;
+  letter-spacing: 2px;
 }
 blockquote,
 q {
@@ -139,7 +139,7 @@ button {
 }
 .header h1 {
   font-family: 'Bad Script', cursive;
-  letter-spacing: 10;
+  letter-spacing: 10px;
   color: #ffffb0;
   margin-left: 5%;
   font-size: 2.2rem;
@@ -348,7 +348,7 @@ button {
 }
 .footer h1 {
   font-family: 'Bad Script', cursive;
-  letter-spacing: 10;
+  letter-spacing: 10px;
   color: #ffffb0;
   margin-right: 3%;
   font-size: 2rem;
