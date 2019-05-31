@@ -106,7 +106,7 @@ section {
 }
 body {
   line-height: 1;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 blockquote,
 q {
@@ -165,8 +165,10 @@ button {
 .mainTop {
   display: flex;
   flex-direction: row;
+  align-items: center;
   font-family: 'Bad Script', cursive;
-  height: 650px;
+  height: 100%;
+  margin-bottom: 5%;
 }
 .mainTop h2 {
   font-family: 'Bad Script', cursive;
@@ -185,18 +187,18 @@ button {
 }
 .mainTop img {
   padding-bottom: 40px;
+  height: 600px;
   width: 50%;
   margin-right: 5%;
   margin-left: 2%;
 }
 .mainTop .textContent {
   margin-right: 3%;
-  margin-top: 3%;
   box-shadow: 1px 1px 200px 1px #e8f5f3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80%;
+  height: 500px;
   border-radius: 15%;
 }
 .mainTop .textContent p {
@@ -206,7 +208,7 @@ button {
 }
 .mainTop button {
   border-color: green;
-  margin-top: 3%;
+  margin-top: 7%;
   height: 50px;
   width: 50%;
   font-size: 1rem;
@@ -270,7 +272,7 @@ button {
   margin-bottom: 3%;
   padding-left: 2%;
   width: 80%;
-  height: 500px;
+  height: 100%;
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -306,7 +308,8 @@ button {
 }
 .team div {
   flex-direction: row;
-  width: 100%;
+  align-items: center;
+  width: 150px;
   margin-bottom: 2%;
   display: flex;
   flex-direction: column;
@@ -316,10 +319,11 @@ button {
   margin-top: 10%;
   display: flex;
   justify-content: center;
+  width: 250px;
 }
 .team div h3 {
   margin-top: 20%;
-  font-size: 1.3rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
 }
