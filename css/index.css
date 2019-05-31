@@ -296,35 +296,40 @@ button {
 .team {
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  overflow: scroll;
   box-sizing: border-box;
   margin-bottom: 3%;
   margin-top: 3%;
   width: 98%;
   border: solid #009588 0.5px;
   border-radius: 51px;
-  padding: 2%;
 }
 .team div {
-  display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 2%;
-}
-.team div .list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 2%;
-}
-.team div .list li {
-  margin: 15px;
+  padding: 5%;
 }
 .team div p {
-  margin-bottom: 10%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
 }
-.team a {
-  color: #e8f5f3;
+.team div img {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+}
+.team::-webkit-scrollbar {
+  -webkit-appearance: none;
+  height: 4px;
+  width: 4px;
+}
+.team::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #009588;
 }
 .footer {
   display: flex;
