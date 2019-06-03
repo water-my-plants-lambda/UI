@@ -129,7 +129,6 @@ body {
 }
 button {
   font-family: 'Bad Script', cursive;
-  letter-spacing: 3;
 }
 .header {
   display: flex;
@@ -169,7 +168,7 @@ button {
   align-items: center;
   font-family: 'Bad Script', cursive;
   height: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .mainTop h2 {
   font-family: 'Bad Script', cursive;
@@ -215,7 +214,7 @@ button {
   height: 50px;
   width: 50%;
   font-size: 1rem;
-  border-radius: 15px;
+  border-radius: 5%;
   background-color: white;
 }
 .mainTop a {
